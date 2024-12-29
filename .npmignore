@@ -1,0 +1,7 @@
+.babelrc
+.eslintrc.json
+.github/
+.prettierignore
+.prettierrc
+jest.config.js
+Makefile
