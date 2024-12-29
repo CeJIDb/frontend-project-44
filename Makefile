@@ -7,3 +7,8 @@ install:
 # Запуск игры brain-games
 brain-games:
 	node bin/brain-games.js
+
+# Публикация пакета (только проверка)
+publish:
+	npm publish --dry-run
+
