@@ -3,6 +3,10 @@
 [![Actions Status](https://github.com/CeJIDb/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/CeJIDb/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/76f61ba8e2ba0dfc44d0/maintainability)](https://codeclimate.com/github/CeJIDb/frontend-project-44/maintainability)
 
-## Brain-Even Demo
+## Demo
 
-You can see the demo of the game here: [![asciicast](https://asciinema.org/a/GRkARY2MXdIeCE8PyvVHtSglH.svg)](https://asciinema.org/a/GRkARY2MXdIeCE8PyvVHtSglH)
+You can watch a demo of the game in action:
+
+[Brain-Even](https://asciinema.org/a/GRkARY2MXdIeCE8PyvVHtSglH)
+
+[Brain-Calc](https://asciinema.org/a/rfLuK4H2gzEeMOgadxTewnLPx)
