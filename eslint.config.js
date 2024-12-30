@@ -1,7 +1,6 @@
 import globals from 'globals';
 import pluginJs from '@eslint/js';
 import prettier from 'eslint-plugin-prettier';
-import jest from 'eslint-plugin-jest';
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
@@ -18,13 +17,6 @@ export default [
   },
   // Рекомендуемые настройки от eslint
   pluginJs.configs.recommended,
-  // Рекомендуемые настройки для Jest
-  {
-    plugins: {
-      jest,
-    },
-    rules: jest.configs.recommended.rules,
-  },
   // Настройки для Prettier
   {
     plugins: {
