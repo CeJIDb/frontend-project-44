@@ -12,3 +12,5 @@ You can watch a demo of the game in action:
 [Brain-Calc](https://asciinema.org/a/rfLuK4H2gzEeMOgadxTewnLPx)
 
 [Brain-GCD](https://asciinema.org/a/igHd60skGMvgFO5PZ6i7ZcvG7)
+
+[Brain-Progression](https://asciinema.org/a/JkiMrjGSesRa2vTlmdbCgBCkI)
