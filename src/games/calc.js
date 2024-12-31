@@ -1,4 +1,7 @@
-import { getRandomInt, getRandomOperation } from '../utils.js';
+import { getRandomInt } from '../utils.js';
+
+const getRandomOperation = (operations) =>
+  operations[Math.floor(Math.random() * operations.length)];
 
 const description = 'What is the result of the expression?';
 
