@@ -1,16 +1,20 @@
-# Makefile для управления задачами проекта
+# Makefile for managing project tasks
 
-# Установка зависимостей (использует npm ci для чистой установки)
+# Install dependencies and create a symlink for executable files
+setup: install link
+
+# Install dependencies (uses npm ci for a clean installation)
 install:
 	npm ci
 
-# Запуск игры brain-games
-brain-games:
-	node bin/brain-games.js
+# Create a symlink for local usage of executable files
+link:
+	npm link
 
-# Публикация пакета (только проверка)
-publish:
+# Publish the package (performs a dry run and runs the linter first)
+publish: lint
 	npm publish --dry-run
 
+# Run code checks using ESLint
 lint:
 	npx eslint .
