@@ -1,8 +1,8 @@
-import { getRandomInt } from '../utils.js';
+import getRandomInt from '../utils.js';
 
-const generateProgression = (start, step, length) => {
-  return Array.from({ length }, (_, i) => start + i * step);
-};
+const generateProgression = (start, step, length) => (
+  Array.from({ length }, (_, i) => start + i * step)
+);
 
 const description = 'What number is missing in the progression?';
 

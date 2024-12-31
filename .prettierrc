@@ -2,11 +2,8 @@
   "semi": true,
   "singleQuote": true,
   "tabWidth": 2,
-  "trailingComma": "es5",
-  "printWidth": 80,
-  "extends": [
-    "eslint:recommended",
-    "plugin:jest/recommended",
-    "plugin:prettier/recommended"
-  ]
+  "printWidth": 100,
+  "arrowParens": "always",
+  "trailingComma": "all",
+  "extends": ["eslint:recommended", "plugin:jest/recommended", "plugin:prettier/recommended"]
 }
