@@ -14,3 +14,5 @@ You can watch a demo of the game in action:
 [Brain-GCD](https://asciinema.org/a/igHd60skGMvgFO5PZ6i7ZcvG7)
 
 [Brain-Progression](https://asciinema.org/a/JkiMrjGSesRa2vTlmdbCgBCkI)
+
+[Brain-Prime](https://asciinema.org/a/LqGY4Q9U2GY1JIG5gUGC8WyYC)
