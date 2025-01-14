@@ -3,7 +3,7 @@ import greetUser from './cli.js';
 
 const roundsCount = 3;
 
-export default (description, generateRound) => {
+const runGame = (description, generateRound) => {
   const userName = greetUser();
   console.log(description);
 
@@ -22,3 +22,5 @@ export default (description, generateRound) => {
 
   console.log(`Congratulations, ${userName}!`);
 };
+
+export default runGame;
