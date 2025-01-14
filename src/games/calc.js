@@ -1,8 +1,7 @@
 import getRandomInt from '../utils.js';
 
-const getRandomOperation = (operations) => (
-  operations[Math.floor(Math.random() * operations.length)]
-);
+const getRandomOperation = (operations) =>
+  operations[Math.floor(Math.random() * operations.length)];
 
 const description = 'What is the result of the expression?';
 
@@ -14,24 +13,13 @@ const generateRound = () => {
   const operation = getRandomOperation(operations);
   const question = `${num1} ${operation} ${num2}`;
 
-  let correctAnswer;
+  const operationsMap = {
+    '+': (a, b) => a + b,
+    '-': (a, b) => a - b,
+    '*': (a, b) => a * b,
+  };
 
-  switch (operation) {
-    case '+':
-      correctAnswer = num1 + num2;
-      break;
-    case '-':
-      correctAnswer = num1 - num2;
-      break;
-    case '*':
-      correctAnswer = num1 * num2;
-      break;
-    default:
-      correctAnswer = num1 + num2;
-      break;
-  }
-
-  correctAnswer = String(correctAnswer);
+  const correctAnswer = operationsMap[operation](num1, num2).toString();
 
   return { question, correctAnswer };
 };
